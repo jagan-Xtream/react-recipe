@@ -1,0 +1,32 @@
+.recipe{
+    border: 1px solid black;
+    box-shadow: 0px 3px 10px black;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(#0575E6,#021B79);
+    align-items: center;
+    min-width: 40%;
+}
+.recipe:hover{
+    color: azure;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(230, 72, 9);
+    border-radius: 2px;
+}
+.image{
+    box-shadow: 0px 3px 10px 0px black;
+    border-radius: 10px;
+}
+.calorie{
+    width: 100%;
+    background-color: rgb(248, 213, 12);
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
